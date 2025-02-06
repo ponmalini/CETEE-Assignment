@@ -16,7 +16,7 @@ const navigate = useNavigate();
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link " aria-current="page" href="#" onClick={() => navigate('/Department')}>Department </a>
+                                    <a className="nav-link " aria-current="page" href="#" onClick={() => navigate('/')}>Department </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#"onClick={() => navigate('/Designation')}>Designation</a>
